@@ -1,0 +1,161 @@
+---
+title: Page builder blocks for Gatsby. 
+description: Build your Gatsby site by writing simple components inside Markdown files.
+is_front: true
+---
+<Hero
+  heading="Page builder <br />blocks for Gatsby"
+  lead="Build your Gatsby site by writing simple components inside Markdown files"
+  imageStyle={{
+    mt: [6, 7],
+    mb: [-9, -11, -12],
+    borderRadius: [3],
+    boxShadow: "xxl"
+  }}
+  style={{
+    bg: "#feca57",
+    pt: [6, 6, 8],
+    pb: [0, 0, 0],
+    h1: {
+      color: "#000 !important"
+    },
+    p: {
+      color: "#011627 !important"
+    }
+  }}
+>
+
+  <Div style={{
+    mt: [4, 6, 7],
+    mb: [-9, -11, -12],
+    borderRadius: [3],
+    boxShadow: "xxl",
+    overflow: "hidden",
+    width: ["100%", "80%"],
+    border: "5px solid black",
+    bg: "#000",
+  }}>
+  <video controls autoplay muted loop playsinline style={{
+    display: "block",
+    width: "100%",
+  }}>
+    <source src="demo.mp4" type="video/mp4" />
+  </video>
+  </Div>
+
+</Hero>
+
+<Section style={{
+  mt: [10, 11, 12],
+  p: [4, 6, 8],
+}}>
+
+<a href="https://codesandbox.io/s/github/arshad/gatsby-starter-flex/tree/master/?fontsize=14&hidenavigation=1&module=%2Fcontent%2Fpages%2Fhome%2Findex.mdx&theme=dark" target="_blank" title="Try Flex on CodeSandbox">
+  <img src="https://codesandbox.io/static/img/play-codesandbox.svg" />
+</a>
+
+</Section>
+
+<Section
+  heading="How does it work?"
+  lead="Flex leverages the power of <strong>Gatsby</strong>, <strong>MDX</strong> <br />and <strong>Theme UI</strong> to build blazing fast websites."
+  style={{
+    pt: [0, 0, 0],
+    pb: [6, 8, 8],
+  }}
+>
+<Grid columns={[1, 1, 3]} gap={[4, 4, 6, 6, 8]} sx={{
+  mt: [4, 4, 6],
+}}>
+    <Card 
+      heading="Gatsby"
+      imageUrl="logo-gatsby.png"
+      imageAlt="Gatsby"
+      type="icon"
+    >
+      <p>Flex is built for Gatsby with speed and extensibility in mind.</p>
+    </Card>
+    <Card 
+      heading="MDX"
+      imageUrl="logo-mdx.png"
+      imageAlt="MDX"
+      type="icon"
+    >
+      <p>Build your site using React components inside Markdown files.</p>
+    </Card>
+    <Card 
+      heading="Theme UI"
+      imageUrl="logo-theme-ui.png"
+      imageAlt="Theme UI"
+      type="icon"
+    >
+      <p>Customize the look and feel of your site using a robust theme specification.</p>
+    </Card>
+</Grid>
+</Section>
+
+<Section
+  style={{
+    py: [6, 6, 8],
+    bg: "muted",
+    h3: {
+      m: 0,
+    }
+  }}>
+<Grid columns={[1, 1, 3]} gap={[6, 7]}>
+
+  <Div>
+
+### Customizable
+All blocks can be extended and customized.
+
+  </Div>
+
+  <Div>
+
+### Extendable
+Build and add your own custom blocks.
+
+  </Div>
+
+  <Div>
+
+### Accessible
+All blocks are tested for accessiblity.
+
+  </Div>
+
+  <Div>
+
+### Dark mode
+Support for multiple color modes.
+
+  </Div>
+
+  <Div>
+
+### SEO
+SEO + Open Graph out of the box.
+
+  </Div>
+
+  <Div>
+
+### Code Highlighting
+Code highlighting with Prism.
+
+  </Div>
+</Grid>
+</Section>
+
+<Cta 
+  heading="Ready to get started?"
+  lead="Read the documentation and start building your site."
+  links={<Button url="/docs">Get Started</Button>}
+  style={{
+    bg: "#111",
+    h2: {
+      color: "white"
+    }
+  }}
+/>

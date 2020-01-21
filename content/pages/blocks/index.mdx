@@ -1,0 +1,167 @@
+---
+title: Blocks
+description: Example blocks for Flex
+---
+
+<PageHeader
+  heading="Example Blocks"
+  lead="Flex ships with a collection of Blocks that are available in your MDX pages."
+  style={{
+    bg: "transparent"
+  }}
+/>
+
+<Hero 
+  heading="Hero Block"
+  lead="Animi labore reprehenderit veritatis dignissimos et."
+  imageUrl="placeholder.jpg"
+  links={<><Button>Get Started</Button> <Button type="secondary">Learn more</Button></>}
+  style={{
+    bg: "muted"
+  }}
+/>
+
+<Section
+  heading="Text"
+  lead="Doloribus quas neque harum deserunt alias. Quas unde voluptatibus. Maiores fuga architecto."
+  links={<><Button>Get Started</Button> <Button type="secondary">Learn more</Button></>}
+>
+<Div style={{
+  maxWidth: ["none", "none", "60%"]
+}}>
+
+Harum repellendus illo **voluptate qui quo quae**. Assumenda doloremque velit doloribus. Tenetur sint tenetur expedita. Itaque ipsum aperiam quidem. Distinctio at numquam aut. Esse vitae vero ullam explicabo.
+
+Mollitia iste modi et *praesentium* numquam veniam. In quis porro sequi molestias maiores dolore eos. Nostrum suscipit fugit similique perferendis laudantium doloribus.
+
+Provident quasi vel amet odit at consequatur porro. Tempore necessitatibus beatae amet pariatur tempora quas cum. Dicta dolorum sapiente officia voluptate omnis sit.
+
+</Div>
+</Section>
+
+<Cta 
+  heading="Call to action"
+  lead="Earum optio adipisci repellendus ducimus quia. Totam quidem maxime hic corrupti."
+  links={<Button>Learn more</Button>}
+  style={{
+    bg: "muted"
+  }}
+/>
+
+<Feature
+  heading="Image and Text"
+  lead="Nesciunt sunt voluptas. Fugit perferendis labore placeat dolorem corporis."
+  imageUrl="placeholder.jpg"
+  links={<><Button>Get Started</Button> <Button type="secondary">Learn more</Button></>}
+>
+
+## Inventore delectus enim
+
+Aut voluptate numquam commodi. Eos maxime quaerat sit. Voluptatum sed minima quibusdam.
+
+Provident quasi vel amet odit at consequatur porro. Tempore necessitatibus beatae amet pariatur tempora quas cum. Dicta dolorum sapiente officia voluptate omnis sit.
+
+</Feature>
+
+<Feature
+  heading="Text and Image"
+  lead="Nesciunt sunt voluptas. Fugit perferendis labore placeat dolorem corporis."
+  imageUrl="placeholder.jpg"
+  imagePosition="right"
+  links={<><Button>Get Started</Button> <Button type="secondary">Learn more</Button></>}
+  style={{
+    bg: "muted"
+  }}
+>
+
+## Delectus inventore
+
+Aut voluptate numquam commodi. Eos maxime quaerat sit. Voluptatum sed minima quibusdam.
+
+Provident quasi vel amet odit at consequatur porro. Tempore necessitatibus beatae amet pariatur tempora quas cum. Dicta dolorum sapiente officia voluptate omnis sit.
+
+</Feature>
+
+<Section
+  heading="Testimonials"
+  lead="Nesciunt sunt voluptas. Fugit perferendis labore placeat dolorem corporis."
+  links={<><Button>Get Started</Button> <Button type="secondary">Learn more</Button></>}
+>
+<Grid columns={[1, 2]}>
+<Testimonial 
+  text="Distinctio quaerat nostrum rem nobis veniam veniam. Eaque voluptas at natus. Qui eaque rerum exercitationem quam."
+  name="Haley Alexander"
+  company="Acme Inc"
+  imageUrl="avatar.png"
+/>
+
+<Testimonial 
+  text="Aperiam deleniti tempora quis magnam quis. Odio vero accusamus aut rerum deserunt. Sed amet nobis suscipit ullam."
+  name="Maria Evans"
+  company="Acme Inc"
+  imageUrl="avatar.png"
+/>
+</Grid>
+</Section>
+
+<Section
+  heading="Cards"
+  lead="Voluptates tempora harum iusto. Consequuntur sunt est accusantium ratione."
+  style={{
+    bg: "muted",
+  }}
+>
+<Grid columns={[1, 2]} gap={[0, 4, 8]}>
+    <Card 
+      heading="Veritatis assumenda totam"
+      imageUrl="placeholder.jpg"
+    >
+Nam dolorum facere ex. Ad provident voluptas doloremque officia. Minus qui cumque.
+    </Card>
+    <Card 
+      heading="Iusto natus"
+      imageUrl="placeholder.jpg"
+    >
+Itaque rerum harum amet. Iusto natus corrupti minima esse. Eaque nam voluptates veritatis.
+    </Card>
+</Grid>
+</Section>
+
+<Faqs
+  heading="FAQs"
+  lead="At ullam doloribus soluta labore."
+  links={<Button type="secondary">Learn more</Button>}
+>
+  <Faq heading="Error laborum temporibus nihil?">
+
+Pariatur quos laboriosam aliquam. Occaecati itaque reprehenderit aut quasi. Iste praesentium corrupti ipsam laborum nisi exercitationem.
+
+  </Faq>
+
+  <Faq heading="Fuga vitae corporis consectetur inventore ipsa nesciunt?">
+
+Pariatur quos laboriosam aliquam. Occaecati itaque reprehenderit aut quasi. Iste praesentium corrupti ipsam laborum nisi exercitationem.
+
+  </Faq>
+
+  <Faq heading="Doloremque vel vero totam rerum quis voluptates?">
+
+Pariatur quos laboriosam aliquam. Occaecati itaque reprehenderit aut quasi. Iste praesentium corrupti ipsam laborum nisi exercitationem.
+
+  </Faq>
+
+  <Faq heading="Laboriosam eligendi delectus beatae maiores quisquam pariatur corrupti?">
+
+Pariatur quos laboriosam aliquam. Occaecati itaque reprehenderit aut quasi. Iste praesentium corrupti ipsam laborum nisi exercitationem.
+
+  </Faq>
+</Faqs>
+
+<Cta 
+  heading="Ready to get started?"
+  lead="Read the documentation and start building your site."
+  links={<Button url="/docs">Get Started</Button>}
+  style={{
+    bg: "muted"
+  }}
+/>
