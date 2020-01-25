@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.4...gatsby-example-flex@1.1.5) (2020-01-25)
+
+
+### Bug Fixes
+
+* **flex:** add gitignore ([c06e8fc](https://github.com/arshad/gatsby-themes/commit/c06e8fcd7ea8457fddd1301d70fa26357f57053b))
+
+
+
+
+
 ## [1.1.4](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.3...gatsby-example-flex@1.1.4) (2020-01-21)
 
 
