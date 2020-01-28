@@ -2,7 +2,7 @@
   "name": "gatsby-example-flex",
   "description": "Demo for gatsby-theme-flex.",
   "private": true,
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "arshad <arshad@chummun.com>",
   "license": "MIT",
   "scripts": {
@@ -14,13 +14,13 @@
     "preview": "gatsby build && gatsby serve"
   },
   "devDependencies": {
-    "gatsby": "2.18.18",
+    "gatsby": "2.19.7",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   },
   "dependencies": {
-    "gatsby": "2.18.18",
-    "gatsby-theme-flex": "^0.2.0",
+    "gatsby": "2.19.7",
+    "gatsby-theme-flex": "^0.2.1",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   }
