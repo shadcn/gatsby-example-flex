@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.10](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.9...gatsby-example-flex@1.1.10) (2020-05-05)
+
+
+### Bug Fixes
+
+* update packages ([3324972](https://github.com/arshad/gatsby-themes/commit/3324972976ec6a766b24078e1ec3b4a6414ae211))
+
+
+
+
+
 ## [1.1.9](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.8...gatsby-example-flex@1.1.9) (2020-03-21)
 
 **Note:** Version bump only for package gatsby-example-flex
