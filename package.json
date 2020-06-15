@@ -2,7 +2,7 @@
   "name": "gatsby-example-flex",
   "description": "Demo for gatsby-theme-flex.",
   "private": true,
-  "version": "1.1.10",
+  "version": "1.1.11",
   "author": "arshad <arshad@chummun.com>",
   "license": "MIT",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^2.21.11",
-    "gatsby-theme-flex": "^0.2.5",
+    "gatsby-theme-flex": "^0.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
