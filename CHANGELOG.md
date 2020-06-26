@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.11...gatsby-example-flex@1.2.0) (2020-06-26)
+
+
+### Features
+
+* **flex:** add support for twitter summary cards ([5d48cd8](https://github.com/arshad/gatsby-themes/commit/5d48cd8d8d18530c2bf0f7d46481498e2d085e9b))
+
+
+
+
+
 ## [1.1.11](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.10...gatsby-example-flex@1.1.11) (2020-06-15)
 
 **Note:** Version bump only for package gatsby-example-flex
